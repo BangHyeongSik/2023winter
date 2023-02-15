@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+</head>
+<link rel="stylesheet" href="./public/edit.css" />
+<body>
+    <div class="table">
+        <div class="row">
+            <div class="cell">
+                <div>Post</div>
+                <div class="form">
+                    <div>유저이름</div>
+                    <input id="post_userName" class="input" type="text" />
+                </div>
+                <button id="postButton" class="button" onclick="postClick()">입력</button>
+            </div>
+            <div class="cell">
+                <div>Put</div>
+                <div class="form">
+                    <div>UserIndex</div>
+                    <input id="put_userIndex" class="input" type="text" />
+                </div>
+                <div class="form">
+                    <div>유저이름</div>
+                    <input id="put_userName" class="input" type="text" />
+                </div>
+                <div class="form">
+                    <div>PV</div>
+                    <input id="put_pv" class="input" type="text" />
+                </div>
+                <div class="form">
+                    <div>SP</div>
+                    <input id="put_sp" class="input" type="text" />
+                </div>
+                <div class="form">
+                    <div>MV</div>
+                    <input id="put_mv" class="input" type="text" />
+                </div>
+                <button id="putButton" class="button" onclick="putClick()">입력</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="cell">
+                <div>Patch</div>
+                <div class="form">
+                    <div>UserIndex</div>
+                    <input id="patch_userIndex" class="input" type="text" />
+                </div><div class="form">
+                    <div>Key</div>
+                    <input id="patch_key" class="input" type="text" />
+                </div>
+                <div class="form">
+                    <div>Value</div>
+                    <input id="patch_value" class="input" type="text" />
+                </div>
+                <button id="patchButton" class="button" onclick="patchClick()">입력</button>
+            </div>
+            <div class="cell">
+                <div>Delete</div>
+                <div class="form">
+                    <div>유저 이름</div>
+                    <input id="delete_userIndex" class="input" type="text" />
+                </div>
+                <button id="deleteButton" class="button" onclick="deleteClick()">입력</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./public/edit.js"></script>
+</html>

@@ -1,0 +1,78 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: gray;
+    display: flex;
+    flex-direction:  column;
+
+    margin: 1%;
+    padding: 0;
+
+    width: 98%;
+    height: 98%;
+}
+
+.inputLine {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    flex-direction:  row;
+    justify-content: center;
+}
+
+.border {
+    width: 100%;
+    height: 95%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.row-1 {
+    width: 100%;
+    height: 100%;
+}
+
+.row-2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bundle {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    background-color: aqua;
+
+    outline: black solid 1px;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    color: white;
+    font-weight: bold;
+    font-size: 5em;
+}
+
+.gray {
+    background-color: gray;
+}
