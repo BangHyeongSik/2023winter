@@ -4,7 +4,7 @@ const port = 3000;
 
 let controllerData = require('./controller.json');
 
-app.use('/public', express.static(__dirname + '/public'));
+app.use('/public', express.static(__dirname + ':3000/public'));
 
 app.get('/data', (req, res) => {
 	res.sendFile(__dirname + '/data.html');
