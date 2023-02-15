@@ -1,5 +1,5 @@
-const ip = '192.168.45.143';
-const port = 3000;
+const ip = '192.168.45.150';
+const port = -1;
 const ip_port = port !== -1 ? `${ip}:${port}` : ip;
 const url = `http://${ip_port}/api/`;
 
